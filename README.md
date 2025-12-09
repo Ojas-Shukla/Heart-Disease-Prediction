@@ -15,9 +15,11 @@ Regression, Decision Tree, Random Forest etc to predict the presence of heart di
 * To develop a supervised classification model that predicts whether a patient
 has heart disease (target: 0 or 1).<br>
 * To compare the performance of multiple models:<br>
-    <t>1. Logistic Regression<\t><br>
-    <t>2.Decision Tree<\t><br>
-    <t>3.Random Forest<\t><br>
+    <pre>
+    1. Logistic Regression<\t><br>
+    2.Decision Tree<\t><br>
+    3.Random Forest<\t><br>
+    </pre>
 * To evaluate models using classification metrics: Accuracy, Precision, Recall,
 F1-Score, ROC-AUC.</p>
 <h4><b>Dataset:
