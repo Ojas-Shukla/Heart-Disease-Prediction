@@ -25,8 +25,8 @@ st.write('Enter the patient information to predict heart disease.')
 
 def user_input_features():
   age = st.sidebar.number_input('Age', min_value=18, max_value = 100)
-  sex = st.sidebar.selectbox('Sex', options = ['Male', 'Female'])
-  sex_value = 1 if sex == 'Male' else 0
+  sex_selection = st.sidebar.selectbox('Sex', options = [('Male', 1), ('Female', 0)])
+  sex = sex_selection[1]
   cp = st.sidebar.selectbox('Chest Pain Type', options = [0,1,2,3])
   trestbps = st.sidebar.number_input('trestbps', min_value = 80, max_value = 200)
   chol = st.sidebar.slider('cholestrol', 100, 600, 240)
@@ -34,7 +34,7 @@ def user_input_features():
   restecg = st.sidebar.selectbox('Resting ECG', options = [0,1,2])
   thalach = st.sidebar.slider('Maximum Heart Rate', 60, 220, 150)
   exang_selection = st.sidebar.selectbox('exang', options = [('No',0),('yes',1)])
-  exang = exang_selection[1] # Extract the integer value from the tuple
+  exang = exang_selection[1]
   oldpeak = st.sidebar.slider('oldpeak', 0.0, 6.0, 1.0)
   slope = st.sidebar.selectbox('slope', options = [0,1,2])
   ca = st.sidebar.selectbox('ca', options = [0,1,2,3])
