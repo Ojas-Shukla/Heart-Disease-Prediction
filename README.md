@@ -26,4 +26,4 @@ F1-Score, ROC-AUC.</p>
 https://drive.google.com/file/d/1k3Yhgzrgzl9CbdGXuZvK7WgbZ8kVx56I/view?
 usp=sharing</b></h4>
 
-<h3><b>APP LINK ---> heart-disease-prediction-dm9jh86zcrcwyk8tpedaa6</b></h3>
+<h3><b>APP LINK ---> https://heart-disease-prediction-dm9jh86zcrcwyk8tpedaa6.streamlit.app/</b></h3>
