@@ -25,8 +25,7 @@ st.write('Enter the patient information to predict heart disease.')
 
 def user_input_features():
   age = st.sidebar.number_input('Age', min_value=18, max_value = 100)
-  sex_selection = st.sidebar.selectbox('Sex', options = [('Male', 1), ('Female', 0)])
-  sex = sex_selection[1]
+  sex = st.sidebar.selectbox('Sex', options = [0, 1])
   cp = st.sidebar.selectbox('Chest Pain Type', options = [0,1,2,3])
   trestbps = st.sidebar.number_input('trestbps', min_value = 80, max_value = 200)
   chol = st.sidebar.slider('cholestrol', 100, 600, 240)
