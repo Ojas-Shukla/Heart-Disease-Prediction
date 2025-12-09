@@ -14,7 +14,7 @@ import numpy as np
 import joblib
 import os
 
-model_path ='/content/heart_disease_model.joblib'
+model_path ='heart_disease_model.joblib'
 
 model = joblib.load(model_path)
 
