@@ -16,9 +16,9 @@ Regression, Decision Tree, Random Forest etc to predict the presence of heart di
 has heart disease (target: 0 or 1).<br>
 * To compare the performance of multiple models:<br>
     <pre>
-    1. Logistic Regression<\t><br>
-    2.Decision Tree<\t><br>
-    3.Random Forest<\t><br>
+    1. Logistic Regression<br>
+    2.Decision Tree<br>
+    3.Random Forest<br>
     </pre>
 * To evaluate models using classification metrics: Accuracy, Precision, Recall,
 F1-Score, ROC-AUC.</p>
